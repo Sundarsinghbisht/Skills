@@ -1,0 +1,105 @@
+
+#education{
+    width: 100%;
+    font-family: 'Arial', sans-serif;
+    background-color: #f9f9f9;
+    padding: 20px;
+  }
+  
+  .timeline {
+      max-width: 600px;
+      margin: 0 auto;
+      padding: 10px;
+      padding-top: 60px;
+      padding-bottom: 40px;
+  }
+  
+ .timeline h2 {
+      text-align: center;
+      color: #12a89c;
+      margin-bottom: 20px;
+      padding-bottom: 30px;
+  }
+  
+  .timeline-item {
+      display: flex;
+      position: relative;
+      margin-bottom: 20px;
+      align-items: flex-start;
+  }
+  
+  .timeline-icon {
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+      background-color: #333;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      font-size: 24px;
+      position: relative;
+      top: 0;
+      left: 0;
+      flex-shrink: 0;
+  }
+  
+  .timeline-content {
+      margin-left: 20px;
+      padding: 10px 15px;
+      background-color: #fff;
+      border: 1px solid #ddd;
+      border-radius: 5px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+      width: 100%;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+  
+
+  .timeline-content:hover{
+    transform: translateY(-5px); /* Hover effect for slight elevation */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5); /* Shadow on hover */
+    
+  }
+  
+  .timeline-content h3 {
+      font-size: 18px;
+      color: #333;
+  }
+  
+  .timeline-content h4 {
+      font-size: 16px;
+      color: #666;
+      margin-bottom: 5px;
+  }
+  
+  .timeline-content p {
+      font-size: 14px;
+      color: #666;
+  }
+  
+  .timeline-content .year {
+      font-size: 14px;
+      color: #aaa;
+      margin-bottom: 10px;
+      display: block;
+  }
+  
+  .timeline-item::before {
+      content: "";
+      position: absolute;
+      width: 2px;
+      background-color: #ddd;
+      top: 0;
+      bottom: 0;
+      left: 25px;
+      z-index: -1;
+  }
+  
+  .timeline-item:last-child::before {
+      display: none;
+  }
+  
+  /* Responsive Design */
+ 
