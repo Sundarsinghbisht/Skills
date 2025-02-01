@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        .para{
+            color: #212121;
+            font-family: 'Times New Roman', Times, serif;
+        }
+
+        .new{
+            color: aqua;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-size: larger;
+            font-weight: 400;
+        }
+    </style>
+</head>
+<body> 
+    <h1>HELLO THERE</h1>
+
+    <button class="btn">SUBMIT</button>
+
+     <p class="para"> hsajdhahdjsjahdjshjk</p>
+
+
+    <script>
+        const button = document.createElement('button');
+
+        <!-- console.log(button); -->
+
+        const addText = document.createTextNode("click me");
+        button.appendChild(addText);
+
+        button.style.backgroundColor = 'red';
+        button.style.color = 'white';
+
+        document.body.appendChild(button)
+
+        const para = document.querySelector('p')
+        const getAtt = para.getAttribute('class');
+        console.log(getAtt);
+
+        const setAtt = para.setAttribute('class', 'new')
+
+ //**********************************************************************
+         const butn = document.querySelector('.btn') 
+         butn.addEventListener('click', function(){
+            console.log('button clicked')
+            butn.style.backgroundColor = 'green';
+         })     
+         
+          
+
+    </script>
+</body>
+</html>

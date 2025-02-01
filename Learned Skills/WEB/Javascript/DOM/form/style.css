@@ -1,0 +1,15 @@
+.form{
+    margin: 50px 100px;
+    
+    align-items: center;
+    transition: 3.0 all ease;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0,0.7);
+}
+#click{
+    font-size: 40px;
+}
+.main{
+    height: 100px;
+    width: 100px;
+}

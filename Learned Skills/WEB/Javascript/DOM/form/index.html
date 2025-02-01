@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My Website</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="form">
+        <form >
+
+            <label for="Name">Name :</label><br>
+            <input type="text" id="name" name="name" required><br><br>
+
+            <label for="Password">Password :</label><br>
+            <input type="password" id="password" name="password" required minlength="8"><br><br>
+
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" required><br><br>
+
+            <label for="Gender">Gender:-</label><br>
+            
+            <label for="male">Male
+                <input type="radio" id="male" name="gender" required>
+            </label>
+            <label for="female">Female
+                <input type="radio" id="female" name="gender" required>
+            </label><br><br>
+
+            <label for="Course">Course:</label>
+            <select name="Course" id="Course">
+                <option value="1">B.Tech</option>
+                <option value="1">B.Tech</option>
+                <option value="1">B.Tech</option>
+                <option value="1">B.Tech</option>
+                <option value="1">B.Tech</option>
+            </select><br><br>
+
+            <input type="checkbox" id="agree">
+            <label for="agree">I Agree.</label><br><br>
+
+            <button id="sb-btn" onclick="onSubmit()">Submit</button>
+            
+
+
+
+        </form>
+
+      
+
+
+    </div>
+    <div class="btn">
+        <button id="click">CLICK ME</button>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
